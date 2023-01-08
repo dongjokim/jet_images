@@ -1,0 +1,13 @@
+
+    generate p p > t t~
+    output jets_tt
+    launch
+    madspin=none
+    done
+    set nevents 50000
+    set pt_min_pdg { 6: 490 }
+    set pt_max_pdg { 6: 710 }
+    decay t > w+ b, w+ > j j
+    decay t~ > w- b~, w- > j j
+    done    
+    

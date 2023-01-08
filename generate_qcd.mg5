@@ -1,0 +1,10 @@
+
+    generate p p > j j
+    output jets_qcd
+    launch
+    done
+    set nevents 50000
+    set ptj 490
+    set ptjmax 710
+    done    
+    
