@@ -101,7 +101,7 @@ def visualize_nn(model, description=True, figsize=(10,8)):
                 else:
                     ax.add_artist(line)
     #plt.show()
-    plt.savefig('figs/model_plot.png')
+    plt.savefig('figs/model_plot_v.png')
 
 def pad_image(image, max_size = (16,22)):
     """
