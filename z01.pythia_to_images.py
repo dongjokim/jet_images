@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # find pythia path so you can import it
-pythia_path = 'pythia8308/'
+pythia_path = 'pythia8309/'
 cfg = open(pythia_path+"examples/Makefile.inc")
 lib = pythia_path+"lib"
 print(lib)
